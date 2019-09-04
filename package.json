@@ -1,0 +1,19 @@
+{
+  "name": "bddcart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && cucumber-js",
+    "lint": "standard --fix",
+    "watch": "node devwatch.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cucumber": "^5.1.0",
+    "node-watch": "^0.6.3",
+    "standard": "^13.1.0"
+  }
+}
